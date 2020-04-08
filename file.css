@@ -1,0 +1,113 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+	background-color: rgb(13, 17, 39);
+}
+
+h1{
+	color: cyan;
+	text-align: center;
+}
+
+form {
+	border-radius: 1px;
+	padding: 2%; /*margen interno*/
+	background: #1c3f47; /*fondo*/
+	border: 3px solid cyan; /*borde*/
+	margin-top: 2rem; /*margen de arriba*/
+	max-width: 200px; /*tamaño de ancho*/
+	margin-left: auto; /*magenes izquierdo y derecho por defecto es 50 a 50*/
+	margin-right: auto;
+
+}
+a {
+  /* float: left; */
+
+	width: auto;
+	color: cyan;
+}
+a :link {
+  text-decoration: none;
+}
+form > a {
+  text-decoration: none;
+}
+form input {
+	border-radius: 2px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background: rgb(60, 69, 70);
+	border: 2px solid cyan;
+	margin-top: 5px;
+  margin-bottom: 12px;
+  width: 98%;
+	color: white;
+}
+
+#retur {
+  text-align: center;
+}
+
+form button {
+  background: rgb(56, 179, 7);
+  border: 2px solid cyan;
+  display: block;
+  border-radius: 18px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+form button :hover {
+  background-color: rgb(202, 113, 11);
+}
+/*
+form button:hover {
+  background: rgb(25, 151, 209);
+}
+*/
+label {
+  text-align: left;
+  display: block;
+  color:white;
+  size: 16px;
+
+}
+p {
+  color: cyan;
+}
+.id_p {
+  margin-left: 30% ;
+}
+
+input {
+  width: 100%;
+  /* padding: 0.7em;
+  margin-bottom: 0.5rem; */
+}/*
+input:focus {
+  outline: 3px solid gold;
+} */
+/*
+@media (min-width: 400px) {
+  form {
+    overflow: hidden;
+  }
+
+  label {
+    float: left;
+    width: 200px;
+  }
+
+  input {
+    float: left;
+    width: calc(100% - 200px);
+  }
+
+  button {
+    float: right;
+    width: calc(100% - 200px);
+  }
+} */

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file.css">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Registrarse</h1>
+    <form action="userDatas.php" method="post">
+        <label for="username">Nombre de usuario:</label>
+        <input type="text" name="username" id="username" autofocus title="Nombre de usuario invalido" required>
+        <label for="gmail">Correo:</label>
+        <input type="text" name="gmail" id="gmail" title="Ingrese su Email" required>
+        <label for="passwd">Contraseña:</label>
+        <input type="password" name="passwd" id="passwd" title="Ingrese su ontraseña" requered>
+        <hr>
+        <button type="submit">Registrarse</button><br>
+        <a href="./index.html">Regresar |</a>
+        <a href="./logIn.html">¿Ya tienes cuenta?</a>
+    </form>
+</body>
+</html>

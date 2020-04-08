@@ -1,0 +1,19 @@
+/* indx.css */
+
+body {
+    background-color: rgb(19, 19, 56);
+}
+.navbar-nav a:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    border: 1px solid cyan;
+    border-radius: 4px;
+    opacity: 1;
+    background-color: rgb(26, 161, 32);
+    transition: color .3s ease-out,background-color .3s ease-in-out,border-color .3s ease-in-out,box-shadow .3s ease-in-out;
+}
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
